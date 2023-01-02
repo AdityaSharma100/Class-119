@@ -1,0 +1,31 @@
+canvas {
+    border-radius: 20px;
+    border-color: lightblue;
+    border-width: 3px;
+    border-style: solid;
+    animation-name: animated;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animated {
+    from{box-shadow: 3px 2px 45px lightblue; }
+    to{box-shadow: 3px 2px 45px black;  }
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: black;
+    background-color: aliceblue;
+}
+
+#show_sketch {
+    float: right;
+}
+
+p {
+    font-size: 20px;
+}
